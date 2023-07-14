@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position</title>
+        <style>
+            body{
+                background-color: lavender;
+            }
+            .box{
+                height: 300px;
+                width: 500px;
+                
+                /* background-color:lightblue; */
+            }
+            .b{
+                height: 100px;
+                width: 100px;
+                border: 1px solid black;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .b1{
+                height: 130px;
+                width: 150px;
+                background-color: green;
+                border-radius: 500px;
+                position: relative;
+                left: 180px;
+                top: 100px;
+            }
+            .b2{
+                background-color:white;
+                height: 33px;
+                width: 33px;
+                border-radius: 100px;
+                position: relative;
+                left: 225px;
+                right: 1px;
+                position:absolute;
+                top: 150px;
+                right: 645px;
+            }
+            .b3{
+                background-color:white;
+                height: 33px;
+                width: 33px;
+                border-radius: 100px;
+                position: relative;
+                left: 269px;
+                right: 1px;
+                position:absolute;
+                top: 150px;
+                left: 269px;
+            }
+            .b4{
+                background-color:deeppink;
+                border-radius: 50px;
+                height: 49px;
+                width: 50px;
+                position:absolute;
+                top: 190px;
+                left: 240px;
+                text-align: center;
+               
+            }
+            .b5{
+                background-color:black;
+                border-radius: 50px;
+                height: 22px;
+                width: 20px;
+                position:absolute;
+                top: 160px;
+                left: 275px;
+                text-align: center;
+               
+            }
+            .b6{
+                background-color:black;
+                border-radius: 50px;
+                height: 22px;
+                width: 20px;
+                position:absolute;
+                top: 160px;
+                left: 231px;
+                text-align: center;
+               
+            }
+            .b7{
+                background-color:green;
+                border-radius: 50px;
+                height: 50px;
+                width: 50px;
+                position:absolute;
+                top: 70px;
+                left: 200px;
+                text-align: center;
+                z-index: -1;
+               
+            }
+            .b8{
+                background-color:green;
+                border-radius: 50px;
+                height: 50px;
+                width: 50px;
+                position:absolute;
+                top: 70px;
+                left: 290px;
+                text-align: center;
+                z-index: -1;
+               
+            }
+            .b9{
+                background-color:greenyellow;
+                border-radius: 50px;
+                height: 11px;
+                width: 11px;
+                position:absolute;
+                top: 215px;
+                left: 270px;
+                text-align: center;
+            }
+            .b10{
+                background-color:greenyellow;
+                border-radius: 50px;
+                height: 11px;
+                width: 11px;
+                position:absolute;
+                top: 215px;
+                left: 252px;
+                text-align: center;
+            }
+            .b11{
+                background-color:greenyellow;
+                border-radius: 50px;
+                height: 37px;
+                width: 37px;
+                position:absolute;
+                top: 84px;
+                left:207px;
+                text-align: center;
+                z-index: -1;
+            }
+            .b12{
+                background-color:greenyellow;
+                border-radius: 50px;
+                height: 37px;
+                width: 37px;
+                position:absolute;
+                top: 84px;
+                left:295px;
+                text-align: center;
+                z-index: -1;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+             <div class="b b1"></div>
+             <div class="b b2"></div>
+             <div class="b b3"></div>
+             <div class="b b4"></div>
+             <div class="b b5"></div>
+             <div class="b b6"></div>
+             <div class="b b7"></div>
+             <div class="b b8"></div>
+             <div class="b b9"></div>
+             <div class="b b10"></div>
+             <div class="b b11"></div>
+             <div class="b b12"></div>
+        </div>
+    </body>
+</html>
